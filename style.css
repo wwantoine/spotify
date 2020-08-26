@@ -1,0 +1,165 @@
+body{
+    margin:0px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #1DB954;
+  }
+
+footer a:hover {
+    color: #1DB954;
+  }
+
+nav{
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height:80px;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.nav-items a{
+    margin: 0px 8px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    height:640px;
+    background: radial-gradient(ellipse at center, #f6cb6c 0%, #f3c65d 0%, #f2ae54 100%);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height:500px;
+    background-color: black;
+    padding:80px 0px 50px;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+}
+
+.nav-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-style a{
+    color: white;
+    font-size: 16px;
+}
+
+.section-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    font-size:80px;
+    color: white;
+    font-weight: 900;
+    line-height: 1.15;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: -0.04em;
+}
+
+.footer-column{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column a{
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.trial-button{
+    border: 0px;
+    width: 352px;
+    height: 59px;
+    color: white;
+    margin: 0 auto;
+    line-height: 1;
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 500px;
+    padding: 18px 42px 18px;
+    background-color: #1db954;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+}
+.trial-button:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+  }
+
+
+.footer-column h3{
+    color: #919496;
+    font-size: 13.5px;
+}
+
+.footer-column a{
+    padding: 3px 0px 15px;
+}
+
+.fab{
+    font-size: 24px;
+    
+}
+
+.footer-icons .fab:hover {
+    color: #1DB954;
+    cursor: pointer;
+  }
+
+  .footer-icons{
+      display:flex;
+      flex:2;
+      justify-content: flex-end;
+  }
+
+  .footer-logo{
+    padding: 0 15px;
+  }
+
+  .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #222326;
+    text-align: center;
+    width: 54px;
+    height: 54px;
+    margin: 0px 10px;
+  }
+
+  .terms{
+      display: flex;
+      vertical-align: bottom;
+  }
